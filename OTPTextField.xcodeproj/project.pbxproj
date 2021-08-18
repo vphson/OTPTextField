@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADEDCAE5D03EB773457B1F9 /* Pods_OTPTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7598DE7F464107EF4099E33 /* Pods_OTPTextField.framework */; };
+		1B3796FC26CD13D100A25D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3796FB26CD13D100A25D8A /* AppDelegate.swift */; };
+		1B37970526CD13D400A25D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B37970426CD13D400A25D8A /* Assets.xcassets */; };
+		1B37970826CD13D400A25D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B37970626CD13D400A25D8A /* LaunchScreen.storyboard */; };
+		1B37971026CD151900A25D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B37970F26CD151900A25D8A /* ViewController.swift */; };
+		1B37971226CD167D00A25D8A /* OTPStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B37971126CD167D00A25D8A /* OTPStackView.swift */; };
+		1B37971526CD173D00A25D8A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B37971426CD173D00A25D8A /* UITextField.swift */; };
+		1B37971726CD176400A25D8A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B37971626CD176400A25D8A /* UIColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B3796F826CD13D100A25D8A /* OTPTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3796FB26CD13D100A25D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B37970426CD13D400A25D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B37970726CD13D400A25D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B37970926CD13D400A25D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B37970F26CD151900A25D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B37971126CD167D00A25D8A /* OTPStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPStackView.swift; sourceTree = "<group>"; };
+		1B37971426CD173D00A25D8A /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		1B37971626CD176400A25D8A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5E774F370E428BA8EFE0D130 /* Pods-OTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTextField.release.xcconfig"; path = "Target Support Files/Pods-OTPTextField/Pods-OTPTextField.release.xcconfig"; sourceTree = "<group>"; };
+		822E46BA625D344AC7B559AF /* Pods-OTPTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTextField.debug.xcconfig"; path = "Target Support Files/Pods-OTPTextField/Pods-OTPTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		D7598DE7F464107EF4099E33 /* Pods_OTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3796F526CD13D100A25D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADEDCAE5D03EB773457B1F9 /* Pods_OTPTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A35BF16E20A10FDA2F4B917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				822E46BA625D344AC7B559AF /* Pods-OTPTextField.debug.xcconfig */,
+				5E774F370E428BA8EFE0D130 /* Pods-OTPTextField.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B3796EF26CD13D100A25D8A = {
+			isa = PBXGroup;
+			children = (
+				1B3796FA26CD13D100A25D8A /* OTPTextField */,
+				1B3796F926CD13D100A25D8A /* Products */,
+				0A35BF16E20A10FDA2F4B917 /* Pods */,
+				96C86F15DD3E950B1B63DF05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B3796F926CD13D100A25D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3796F826CD13D100A25D8A /* OTPTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B3796FA26CD13D100A25D8A /* OTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1B37971326CD172B00A25D8A /* Extension */,
+				1B3796FB26CD13D100A25D8A /* AppDelegate.swift */,
+				1B37970426CD13D400A25D8A /* Assets.xcassets */,
+				1B37971926CD18F200A25D8A /* ViewController */,
+				1B37971826CD18E200A25D8A /* View */,
+				1B37970626CD13D400A25D8A /* LaunchScreen.storyboard */,
+				1B37970926CD13D400A25D8A /* Info.plist */,
+			);
+			path = OTPTextField;
+			sourceTree = "<group>";
+		};
+		1B37971326CD172B00A25D8A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B37971426CD173D00A25D8A /* UITextField.swift */,
+				1B37971626CD176400A25D8A /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1B37971826CD18E200A25D8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B37971126CD167D00A25D8A /* OTPStackView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B37971926CD18F200A25D8A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B37970F26CD151900A25D8A /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		96C86F15DD3E950B1B63DF05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7598DE7F464107EF4099E33 /* Pods_OTPTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B3796F726CD13D100A25D8A /* OTPTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B37970C26CD13D400A25D8A /* Build configuration list for PBXNativeTarget "OTPTextField" */;
+			buildPhases = (
+				A29E7E26C87FA55191B51658 /* [CP] Check Pods Manifest.lock */,
+				1B3796F426CD13D100A25D8A /* Sources */,
+				1B3796F526CD13D100A25D8A /* Frameworks */,
+				1B3796F626CD13D100A25D8A /* Resources */,
+				FABB3B92C176A21956EFAA06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPTextField;
+			productName = OTPTextField;
+			productReference = 1B3796F826CD13D100A25D8A /* OTPTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B3796F026CD13D100A25D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1B3796F726CD13D100A25D8A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B3796F326CD13D100A25D8A /* Build configuration list for PBXProject "OTPTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B3796EF26CD13D100A25D8A;
+			productRefGroup = 1B3796F926CD13D100A25D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B3796F726CD13D100A25D8A /* OTPTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B3796F626CD13D100A25D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B37970826CD13D400A25D8A /* LaunchScreen.storyboard in Resources */,
+				1B37970526CD13D400A25D8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A29E7E26C87FA55191B51658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTPTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABB3B92C176A21956EFAA06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTPTextField/Pods-OTPTextField-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTPTextField/Pods-OTPTextField-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTPTextField/Pods-OTPTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3796F426CD13D100A25D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B37971226CD167D00A25D8A /* OTPStackView.swift in Sources */,
+				1B37971026CD151900A25D8A /* ViewController.swift in Sources */,
+				1B3796FC26CD13D100A25D8A /* AppDelegate.swift in Sources */,
+				1B37971526CD173D00A25D8A /* UITextField.swift in Sources */,
+				1B37971726CD176400A25D8A /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B37970626CD13D400A25D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B37970726CD13D400A25D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B37970A26CD13D400A25D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B37970B26CD13D400A25D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B37970D26CD13D400A25D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822E46BA625D344AC7B559AF /* Pods-OTPTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vophuochoangson.OTPTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B37970E26CD13D400A25D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E774F370E428BA8EFE0D130 /* Pods-OTPTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vophuochoangson.OTPTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3796F326CD13D100A25D8A /* Build configuration list for PBXProject "OTPTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B37970A26CD13D400A25D8A /* Debug */,
+				1B37970B26CD13D400A25D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B37970C26CD13D400A25D8A /* Build configuration list for PBXNativeTarget "OTPTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B37970D26CD13D400A25D8A /* Debug */,
+				1B37970E26CD13D400A25D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B3796F026CD13D100A25D8A /* Project object */;
+}
